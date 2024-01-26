@@ -72,3 +72,16 @@ func CompletarTarea(id string) {
 	}
 	fmt.Println("No se encontró la tarea con el ID especificado.")
 }
+
+func EliminarTarea(id string) {
+	CargarTareas()
+	for i, tarea := range tareas {
+		if fmt.Sprintf("%d", tarea.ID) == id {
+			tareas = append(tareas[:i], tareas[i+1:]...)
+			GuardarTareas()
+			fmt.Println("Tarea eliminada con éxito.")
+			return
+		}
+	}
+	fmt.Println("No se encontró la tarea con el ID especificado.")
+}
