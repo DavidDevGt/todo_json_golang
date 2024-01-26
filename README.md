@@ -1,4 +1,4 @@
-Primero, creas un archivo, llamado "tareas.json" y le pegas esto:
+### Primero, creas un archivo, llamado "tareas.json" y le pegas esto:
 
    ```json
 [
