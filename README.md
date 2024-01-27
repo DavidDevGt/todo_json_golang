@@ -28,9 +28,9 @@
    ```shell
    go build
    ```
-5. Ahora
+5. Ahora usa los comandos
 
    ```shell
-   todo_json.exe listar
+   todo_json.exe ayuda
    ```
 
